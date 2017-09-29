@@ -1,0 +1,15 @@
+{
+  "dataset": "LBNL/ICSI - Lawrence Berkeley National Laboratory/International Computer Science Institute",
+  "description": "A goal of this project is to characterize internal enterprise traffic recorded at a medium-sized site, and to determine ways in which modern enterprise traffic is similar to wide-area Internet traffic, and ways in which it is quite different.\n\nWe have collected packet traces that span more than 100 hours of activity from a total of several thousand internal hosts. This wealth of data, which we are publicly releasing in anonymized form, spans a wide range of dimensions.",
+  "link": "http://www.icir.org/enterprise-tracing",
+  "type": "Network",
+  "format": "PCAP",
+  "size": "11GB",
+  "citation": [
+    "Lawrence Berkeley National Laboratory and ICSI, \"LBNL/ICSI enterprise tracing project,\" http://www.icir.org/enterprise-tracing, 2005.",
+    "Pang, R., Allman, M., Paxson, V., & Lee, J. (2006). The devil and packet trace anonymization. Computer Communication Review, 36(1), 29. http://doi.org/10.1145/1111322.1111330"
+  ],
+  "citedBy": ""
+}
+
+  
