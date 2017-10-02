@@ -22,61 +22,104 @@
             <a href="#home" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#explore-head-section" class="nav-link">Research</a>
+            <a href="#research-head-section" class="nav-link">Research</a>
           </li>
           <li class="nav-item">
-            <a href="#create-head-section" class="nav-link">About</a>
+            <a href="#about-head-section" class="nav-link">About</a>
           </li>
           <li class="nav-item">
-            <a href="#share-head-section" class="nav-link">Contact</a>
+            <a href="#contact-head-section" class="nav-link">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- MAIN SECTION --> 
+  <!-- HEADER SECTION --> 
   <header id="home-section">
     <div class="home-inner">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h1 class="display-4">Security Datasets</h1>
+            <h1 class="h2">Security Datasets</h1>
 
             <div class="d-flex flex-row">
-              <div class="p-4 align-self-start">
-                <i class="fa fa-check"></i>
-              </div>
               <div class="p-4 align-self-end">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
+
             </div>
-
-            <div class="d-flex flex-row">
-              <div class="p-4 align-self-start">
-                <i class="fa fa-check"></i>
-              </div>
-              <div class="p-4 align-self-end">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-            </div>
-
-            <div class="d-flex flex-row">
-              <div class="p-4 align-self-start">
-                <i class="fa fa-check"></i>
-              </div>
-              <div class="p-4 align-self-end">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
-            </div>
-
-
           </div>
         </div>
       </div>
     </div>
   </header>
 
+  <!-- DATASETS SECTION -->
+  <section id="datasets-head-section">
+    <div class="container">
+      <div class="row p-3">
+        <div class="col-md-6 mt-2">
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="#">Network</a></li>
+              <li class="list-inline-item">|</li>
+              <li class="list-inline-item"><a href="#">Host</a></li>
+              <li class="list-inline-item">|</li>
+              <li class="list-inline-item"><a href="#">Malware</a></li>
+              <li class="list-inline-item">|</li>
+              <li class="list-inline-item"><a href="#">Other</a></li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+          <form class="form-inline my-2 my-lg-0 float-md-right">
+            <input type="text" class="form-control mr-sm-2" placeholder="Search">
+            <button class="btn btn-outline-primary my-2 my-sm-0">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DATASETS TABLE -->
+  <div class="container">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Dataset</th>
+          <th>Category</th>
+          <th>Format</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">UNB ISCX 2012</th>
+          <td>Network</td>
+          <td>PCAP</td>
+          <td><a href="http://www.unb.ca/research/iscx/dataset/iscx-IDS-dataset.html" target="_blank">http://www.unb.ca/research/iscx/dataset/iscx-IDS-dataset.html</a></td>
+        </tr>
+        <tr>
+          <th scope="row">LBNL/ICSI Enterprise Tracing Project</th>
+          <td>Network</td>
+          <td>PCAP</td>
+          <td><a href="http://www.icir.org/enterprise-tracing" target="_blank">http://www.icir.org/enterprise-tracing</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <!-- PAGINATION -->
+    <nav>
+      <ul class="pagination justify-content-end">
+        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </nav>
+
+  </div>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>

@@ -1,7 +1,7 @@
 {
-  "name": "bs4starter",
+  "name": "SecurityDatasets",
   "version": "1.0.0",
-  "description": "Bootstrap 4 Workflow",
+  "description": "Security Research Datasets",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
